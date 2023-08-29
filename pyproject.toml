@@ -9,6 +9,13 @@ readme = "README.md"
 python = "^3.11"
 
 
+[tool.poetry.group.rich.dependencies]
+rich = "^13.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
